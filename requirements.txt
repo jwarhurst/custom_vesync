@@ -1,2 +1,2 @@
-pyvesync==2.1.1
+pyvesync>=2.1.0
 git+https://github.com/webdjoe/pyvesync/tree/corsori
