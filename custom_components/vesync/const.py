@@ -23,7 +23,7 @@ VS_MODE_SLEEP = "sleep"
 
 VS_TO_HA_ATTRIBUTES = {"humidity": "current_humidity"}
 
-VS_FAN_TYPES = ["VeSyncAirBypass", "VeSyncAir131", "LAP-C302S-WUSB"]
+VS_FAN_TYPES = ["VeSyncAirBypass", "VeSyncAir131", "LAP-C302S-WUSB", "wifi-air"]
 VS_HUMIDIFIERS_TYPES = ["VeSyncHumid200300S", "VeSyncHumid200S"]
 
 DEV_TYPE_TO_HA = {
