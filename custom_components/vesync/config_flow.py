@@ -8,7 +8,7 @@ from homeassistant.components import dhcp
 from homeassistant.const import CONF_PASSWORD, CONF_USERNAME
 from homeassistant.core import callback
 from homeassistant.data_entry_flow import FlowResult
-from my.pyvesync.vesync import VeSync
+from pyvesync.vesync import VeSync
 
 from .const import DOMAIN
 
