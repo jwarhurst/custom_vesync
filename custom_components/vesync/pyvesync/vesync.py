@@ -64,7 +64,7 @@ def object_factory(dev_type, config, manager) -> Tuple[str, VeSyncBaseDevice]:
     elif dev_type in kitchen_mods.kitchen_modules:
         type_str, dev_obj = kitchen(dev_type, config, manager)
     else:
-        logger.debug('Unknown device named %s model %s',
+        logger.debug('Yo, Unknown device named %s model %s',
                      config.get('deviceName', ''),
                      config.get('deviceType', '')
                      )
